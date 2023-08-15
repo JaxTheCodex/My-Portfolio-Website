@@ -107,7 +107,7 @@ html{
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(bg.jpg) no-repeat center;
+  background: url('bg.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -550,7 +550,7 @@ section.dark .section-title::after{
 }
 
 footer{
-  background: url(bg.jpg) no-repeat center;
+  background: url('bg.jpg') no-repeat center;
   color: #fff;
   padding: 80px 0;
   text-align: center;
