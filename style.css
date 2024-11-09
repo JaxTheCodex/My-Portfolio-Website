@@ -108,7 +108,7 @@ html{
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url('bg.jpg') no-repeat center;
+  background: url('bg.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
