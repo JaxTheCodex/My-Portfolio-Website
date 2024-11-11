@@ -318,21 +318,76 @@
       
       <div class="works">
         <!-- UI/UX Project -->
-        <a href="./assets/ui1.png" class="work uiux">
-          <img src="./assets/ui1.png" alt="">
+        <a href="./assets/ui1.gif" class="work uiux">
+          <img src="./assets/ui1.gif" alt="">
           <div class="info">
             <h3>Dashboard UI</h3>
             <div class="cat">made a dashboard ui using figma</div>
           </div>
         </a>
+
+        <a href="./assets/ui2.jpg" class="work uiux">
+          <img src="./assets/ui2.jpg" alt="">
+          <div class="info">
+            <h3>Game Home Page  UI</h3>
+            <div class="cat">made a game home page ui using figma</div>
+          </div>
+        </a>
+
+        <a href="./assets/ui3.jpg" class="work uiux">
+          <img src="./assets/ui3.jpg" alt="">
+          <div class="info">
+            <h3>Lamborghini Car showcase UI</h3>
+            <div class="cat">made a car showcase ui using figma</div>
+          </div>
+        </a>
+
+        <a href="./assets/ui4.gif" class="work uiux">
+          <img src="./assets/ui4.gif" alt="">
+          <div class="info">
+            <h3>Course Banner</h3>
+            <div class="cat">made a course ui using figma</div>
+          </div>
+        </a>
         
         <!-- Web Development Project -->
-        <a href="./assets/ui2.png" class="work webdev">
-          <img src="./assets/ui2.png" alt="">
+        <a href="./assets/web1.gif" class="work webdev">
+          <img src="./assets/web1.gif" alt="">
           <div class="info">
-            <h3>Full-Stack Development</h3>
-            <div class="cat">Become a Full-Stack Developer in 3 months</div>
-            <p><span style="text-decoration: line-through">₹7999</span> ₹2999</p>
+            <h3>Landing Page</h3>
+            <div class="cat">Made with React , Redux & Tailwind </div>
+          </div>
+        </a>
+
+        <a href="./assets/web2.gif" class="work webdev">
+          <img src="./assets/web2.gif" alt="">
+          <div class="info">
+            <h3>Netflix Clone</h3>
+            <div class="cat">Made with React , Tailwind, MongoDB , Axios , Express & Node.js </div>
+          </div>
+        </a>
+
+        <a href="./assets/web3.png" class="work webdev">
+          <img src="./assets/web3.png" alt="">
+          <div class="info">
+            <h3>E-commerce website</h3>
+            <div class="cat">Made with React , Redux, MongoDB , Express , Node.js & Tailwind </div>
+          </div>
+        </a>
+
+        <a href="./assets/web4.gif" class="work webdev">
+          <img src="./assets/web4.gif" alt="">
+          <div class="info">
+            <h3>Admin Dashboard</h3>
+            <div class="cat">Made with React , Redux & Tailwind </div>
+          </div>
+        </a>
+
+        <a href="./assets/web4.png" class="work webdev">
+          <img src="./assets/web4.png" alt="">
+          <div class="info">
+            <h3>3D Animated Portfolio</h3>
+            <div class="cat">Made with React , Redux & Tailwind , Three.Js</div>
           </div>
         </a>
         
@@ -359,17 +414,24 @@
 
         <div class="item">
           <i class="fas fa-map-marker-alt"></i>
-          Bhubaneswar,India
+          Bokaro, Jharkhand, India 
         </div>
       </div>
 
-      <form action="#" class="contact-form">
-        <input type="text" class="nameZone" placeholder="Your Full Name">
-        <input type="email" class="emailZone" placeholder="Your Email">
-        <input type="text" class="subjectZone" placeholder="Subject">
-        <textarea class="messageZone" placeholder="Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
+      <form action="https://formspree.io/f/xjkvryzq" method="POST" class="contact-form">
+        <input type="text" name="name" class="nameZone" placeholder="Your Full Name" required>
+        <input type="email" name="email" class="emailZone" placeholder="Your Email" required>
+        <input type="text" name="subject" class="subjectZone" placeholder="Subject" required>
+        <textarea name="message" class="messageZone" placeholder="Message" required></textarea>
+        
+        <!-- Button container for alignment -->
+        <div class="form-buttons">
+          <input type="reset" value="Clear" class="btn btn-clear">
+          <input type="submit" value="Send Message" class="btn btn-submit">
+        </div>
       </form>
+      
+      
     </div>
   </section>
 
