@@ -46,3 +46,21 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+//Live chat using WhatsApp
+
+document.addEventListener('DOMContentLoaded', function () {
+  const chatNowBtn = document.getElementById('chatNowBtn');
+  const chatWindow = document.getElementById('chatWindow');
+  const closeChat = document.getElementById('closeChat');
+
+  chatNowBtn.addEventListener('click', () => {
+    chatWindow.style.display = 'block'; // Show the chat window
+  });
+
+  closeChat.addEventListener('click', () => {
+    chatWindow.style.display = 'none'; // Hide the chat window
+  });
+});
+
+
