@@ -757,12 +757,12 @@ section.dark .section-title::after{
 
 footer {
   background: url('bg2.gif') no-repeat center center;
-  background-size: cover; /* Ensures the background image covers the entire area */
+  background-size: cover; 
   color: #fff;
   padding: 80px 0;
   width: 100%;
   text-align: center;
-  position: relative; /* Ensure it doesn't get affected by any parent container */
+  position: relative;
 }
 
 
