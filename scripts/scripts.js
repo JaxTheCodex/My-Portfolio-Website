@@ -77,13 +77,13 @@ document.addEventListener("DOMContentLoaded", function () {
       scale: 1,
       opacity: 1,
       rotation: 360,
-      duration: 3, // Slightly longer animation for smoother effect
-      ease: "power1.inOut", // Smoother easing
+      duration: 3,
+      ease: "power1.inOut", 
       scrollTrigger: {
         trigger: ".about-pic",
         start: "top 80%",
-        end: "top 40%", // Extended end point for a slower scroll effect
-        scrub: 2, // Lower scrub value for a smoother animation
+        end: "top 40%",
+        scrub: 2,
       },
     }
   );
